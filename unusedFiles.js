@@ -61,7 +61,6 @@ define(function (require, exports, module) {
     }
   
     function init(){
-        $('#status-language').after('<div id="unusedPercent"></div>');
         $('table.unusedTable, #unused-results .title').empty();
         $unusedPanel.find('.close').on('click', function() {
             Resizer.hide( $unusedPanel );
