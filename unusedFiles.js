@@ -28,7 +28,6 @@ define(function (require, exports, module) {
                     }
                     $('#unused-results .title').text(Object.keys(unusedFilesList).length + ' unused file(s)');
                     Resizer.show( $unusedPanel );
-                    $('#unusedPercent').remove();
                 }
             });
         }
