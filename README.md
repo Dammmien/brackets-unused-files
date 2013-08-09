@@ -1,5 +1,4 @@
 #Find Unused Files
-----
 
 Find unused files in your web project.
 
