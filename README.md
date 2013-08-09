@@ -1,6 +1,6 @@
 #Find Unused Files
 
-Find unused files in your web project.
+A Brackets editor extension to find unused files in your web project
 
 
 ### How to use this extension
