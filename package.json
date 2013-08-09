@@ -1,9 +1,9 @@
 {
   "name": "brackets-unused-files",
   "title": "Unused Files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find unused files in your web project.",
-  "homepage": "https://github.com/Dammmien/brackets-various-improvements",
+  "homepage": "https://github.com/Dammmien/brackets-unused-files",
   "files": [
       "main.js",
       "unusedFiles.js",
