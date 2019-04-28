@@ -6,10 +6,10 @@ define(function (require, exports, module) {
     var DocumentManager   = brackets.getModule('document/DocumentManager'),
         FileSystem        = brackets.getModule('filesystem/FileSystem'),
         ProjectManager    = brackets.getModule('project/ProjectManager'),
-        PanelManager      = brackets.getModule('view/PanelManager'),
+        WorkspaceManager      = brackets.getModule('view/WorkspaceManager'),
         Resizer           = brackets.getModule('utils/Resizer'),
         resultTemplate    = require("text!unusedResult.html"),
-        unusedPanel       = PanelManager.createBottomPanel('unusedFiles.panel', $(resultTemplate), 100),
+        unusedPanel       = WorkspaceManager.createBottomPanel('unusedFiles.panel', $(resultTemplate), 100),
         $unusedPanel      = $('#unused-results');
 
     function compareFiles(callingFilesList, unusedFilesList) {
