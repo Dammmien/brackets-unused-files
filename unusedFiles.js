@@ -6,7 +6,7 @@ define(function (require, exports, module) {
     var DocumentManager   = brackets.getModule('document/DocumentManager'),
         FileSystem        = brackets.getModule('filesystem/FileSystem'),
         ProjectManager    = brackets.getModule('project/ProjectManager'),
-        WorkspaceManager      = brackets.getModule('view/WorkspaceManager'),
+        WorkspaceManager  = brackets.getModule('view/WorkspaceManager'),
         Resizer           = brackets.getModule('utils/Resizer'),
         resultTemplate    = require("text!unusedResult.html"),
         unusedPanel       = WorkspaceManager.createBottomPanel('unusedFiles.panel', $(resultTemplate), 100),
